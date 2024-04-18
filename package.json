@@ -3,6 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loloof64/editableboard-vue.git"
+  },
+  "keywords": [
+    "chess",
+    "board",
+    "editable",
+    "component",
+    "vue3",
+    "vue",
+    "vuejs",
+    "typescript"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
