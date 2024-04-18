@@ -178,10 +178,6 @@ const props = withDefaults(
     coordinatesColor?: string;
     whiteCellsColor?: string;
     blackCellsColor?: string;
-    originCellColor?: string;
-    targetCellColor?: string;
-    dndCrossCellColor?: string;
-    moveHighlightColor?: string;
   }>(),
   {
     size: 100,
@@ -192,10 +188,6 @@ const props = withDefaults(
     coordinatesColor: "yellow",
     whiteCellsColor: "navajowhite",
     blackCellsColor: "peru",
-    originCellColor: "crimson",
-    targetCellColor: "ForestGreen",
-    dndCrossCellColor: "DimGrey",
-    moveHighlightColor: "CadetBlue",
   }
 );
 
