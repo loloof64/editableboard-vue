@@ -9,8 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "ChessboardVue",
-      fileName: "chessboard-vue"
+      name: "EditableBoardVue",
+      fileName: "editableboard-vue"
     },
     rollupOptions: {
       external: ["vue"],
