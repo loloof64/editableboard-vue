@@ -164,7 +164,7 @@ const emit = defineEmits<{
 const standardPosition =
   "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
-const currentValue = ref("X");
+const currentValue = ref("");
 
 const currentPosition = ref(standardPosition);
 
